@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 3000px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 20px solid var(--verde);
 }
 
 .abas-textos{
@@ -113,7 +113,7 @@ body {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .botoes {
         display: flex;
     }

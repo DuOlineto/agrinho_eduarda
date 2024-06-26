@@ -22,13 +22,13 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1000px;
-    width: 100%;
+    width: 180%;
     margin: 0 auto;
 }
 
 .titulo-principal {
     text-align: left;
-    width: 100%;
+    width: 180%;
     font-size: 32px;
 }
 
@@ -46,7 +46,7 @@ body {
     padding: 15em;
     font-size: 18px;
     align-items: center;
-    width: 300%;
+    width: 180%;
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);

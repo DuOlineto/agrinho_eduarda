@@ -43,7 +43,7 @@ body {
     color: var(--branco);
     display: flex;
     justify-content: center;
-    padding: 1em;
+    padding: 15em;
     font-size: 18px;
     align-items: center;
     width: 100%;
@@ -63,12 +63,12 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 20px solid var(--verde);
+    border-bottom: 40px solid var(--verde);
 }
 
 .abas-textos{
     background-color: var(--texto-fundo);
-    padding: 40px;
+    padding: 60px;
     border-radius: 0 0 40px 40px;
 }
 .aba-conteudo.ativo{
@@ -113,13 +113,12 @@ body {
 
 }
 
-@media screen and (min-width: 3000px) {
+@media screen and (min-width: 4000px) {
     .botoes {
         display: flex;
     }
 
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
+    .botao:first-child {50px 0 0 0;
     }
 
     .botao:last-child {

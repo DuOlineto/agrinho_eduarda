@@ -6,12 +6,11 @@
     --branco: #FFFFFF;
     --botao-ativo: #00c234;
     --botao-inativo: rgba(4, 188, 114, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --texto-fundo: rgba(180, 249, 225, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -39,19 +38,33 @@ body {
     border-bottom: 2px solid var(--botao-ativo);
     border-left: 1px solid var(--botao-ativo);
     border-right: 1px solid var(--botao-ativo);
-    border-top: none;
+    border-top: 4px solid var(--botao-ativo);
 }
 
 .botao:first-child {
-    border-radius: 40px 40px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .botoes {
     display: block;
 }
 
-.ativo { background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+.botao.ativo { background-color: var(--botao-ativo);
+    border-bottom: 2px solid var(--verde);
+}
+
+.abas-textos{
+    background-color:var(--texto-fundo);
+    padding: 1em;
+    border-radius: 0 0 10px 10px ;
+}
+
+.aba-conteudo.ativo{
+    display:block;
+}
+
+.aba-conteudo{
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -60,10 +73,10 @@ body {
     }
 
     .botao:first-child {
-        border-radius: 40px 0 0 0;
+        border-radius: 10px 0 0 0;
     }
 
     .botao:last-child {
-        border-radius: 0 40px 0 0;
+        border-radius: 0 20px 0 0;
     }
 }

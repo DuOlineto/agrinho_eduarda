@@ -60,10 +60,10 @@ body {
     }
 
     .botao:first-child {
-        border-radius: 20px 0 0 0;
+        border-radius: 40px 0 0 0;
     }
 
     .botao:last-child {
-        border-radius: 0 20px 0 0;
+        border-radius: 0 40px 0 0;
     }
 }
